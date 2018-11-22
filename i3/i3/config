@@ -162,6 +162,7 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id compton
 exec --no-startup-id xrandr --output DP-4 --left-of HDMI-4
 for_window [class="^.*"] border pixel 2
+for_window [class="Spotify"] floating enable
 
 # i3-gaps stuff :)
 gaps inner 5
